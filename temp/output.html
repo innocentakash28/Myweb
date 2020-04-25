@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<img>
+
+<H1 align="center" ><font face="Arial" >Hello {{result}} </font></H1>
+
+<br>
+<br>
+{{aa}}
+<img src = '{{MEDIA_URL}}{{aa}}' align="center" >
+<form action="a" method="POST">
+    {% csrf_token %}
+  <input type="file" name = "img" value="img">
+    <input type="submit" >
+</form>
+
+</body>
+</html>

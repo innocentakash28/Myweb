@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+
+		<title>Home Page</title>
+       {% load static %}
+		<link rel="stylesheet" href="{% static 'style.css' %}">
+	</head>
+	<body>
+
+	<h1 align="center">Hello {{result}}</h1>
+
+	</body>
+	<body class="body1"><br>
+		<div class="container">
+			<div class="box">
+				<div class="imgBx">
+					<img src="{% static '87828852_2884554561607663_2086927533999128576_o.jpg' %}">
+				</div>
+				<div class="content">
+					<h2>Akash Godre</h2>
+					<p>Full Stack Devloper<br>
+					Lives in Bhopal MP</p>
+					<a href="#">Read More</a>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="{% static 'img2.jpg' %}">
+				</div>
+				<div class="content">
+					<h2>Title</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+					<a href="#">Read More</a>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="{% static 'img3.jpg' %}">
+				</div>
+				<div class="content">
+					<h2>Title</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+					<a href="#">Read More</a>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="{% static 'img4.jpg' %}">
+				</div>
+				<div class="content">
+					<h2>Title</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+					<a href="#">Read More</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
